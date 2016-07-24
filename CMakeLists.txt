@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(embedded2016-study)
+
+# We always use c99
+set(CMAKE_C_FLAGS "-std=c99")
+
+ADD_SUBDIRECTORY(jul24)
